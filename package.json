@@ -1,0 +1,32 @@
+{
+  "name": "@danielsepulveda/ts-config",
+  "version": "0.1.0",
+  "description": "Daniel Sepulveda's TS config",
+  "license": "MIT",
+  "author": "Daniel Sepulveda",
+  "homepage": "https://github.com/DanielSepulveda/my-ts-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielSepulveda/my-ts-config"
+  },
+  "main": "tsconfig.json",
+  "scripts": {
+    "prepare": "husky install",
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.1",
+    "prettier-package-json": "^2.6.0",
+    "standard-version": "^9.3.1"
+  },
+  "keywords": [
+    "config",
+    "tsconfig",
+    "typescript"
+  ]
+}
